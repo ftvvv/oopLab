@@ -1,0 +1,10 @@
+**Question:**  
+
+Create a `UserInfo` class in Java with the following requirements:  
+1. **Static attributes:**  
+   - `username`  
+   - `password`  
+
+2. **Methods required:**  
+   - A method to check if the provided username and password match the stored static values.  
+   - The method should return `true` if they match and `false` otherwise.

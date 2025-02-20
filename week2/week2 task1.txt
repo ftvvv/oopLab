@@ -1,0 +1,15 @@
+**Question:**  
+
+Use Java to create an OOP program with the following requirements:  
+1. Create a `Product` class with these **private attributes:**  
+   - `id` (System-generated, auto-incrementing)  
+   - `productName`  
+   - `productQuantity`  
+   - `productPrice`  
+   - `category`  
+
+2. **Methods required:**  
+   - Getters and setters for all attributes (except `id` should have only a getter).  
+   - A **parameterized constructor** to initialize all attributes **except** `id`.  
+   - An **auto-incrementing** system-generated `id` that increments each time an object is created.  
+   - A `display()` method that prints all information in a **formatted** way using `System.out.printf()`.
