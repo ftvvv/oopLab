@@ -1,0 +1,20 @@
+sample code:
+public class FA24BCSB {
+    public static void main(String[] args) {
+        System.out.println("Hello, world"); 
+    }
+}
+
+
+
+file name should be same as class name
+
+type cmd in search bar in saved folder
+
+first type javac filename.java
+
+then:
+
+type java filename
+
+now it will show the text u had for output
