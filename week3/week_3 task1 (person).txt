@@ -1,0 +1,4 @@
+make a class named person
+pass attributes 
+
+use constructor overloading
