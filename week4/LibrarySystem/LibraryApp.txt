@@ -1,0 +1,28 @@
+package LibrarySystem;
+
+public class LibraryApp {
+
+	public static void main(String[] args) {
+
+		Address authorAdd = new Address("21 zinia", "lahore");
+		Address staffAdd = new Address("923 flowermay", "lahore");
+		Address inchargeAdd = new Address("53 brick", "lahore");		
+
+
+		Person author = new Person("Roald Dahl", authorAdd);
+		Person staff = new Person("Areesha", staffAdd);
+		Person incharge = new Person("Aiman, inchargeAdd);
+
+		Date publicationDate = new Date(23,4,2009);
+		
+		Book book1 = new Book("Charlie and the chocolate factory", "23456-fd", publicationDate, author);
+		Library library1 = new Library("Jinnah Library", book1, incharge, staff);
+
+		library1.showLibraryDetails();
+
+	}
+
+
+
+
+}
